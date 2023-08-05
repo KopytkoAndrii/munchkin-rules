@@ -126,7 +126,7 @@ export const translations = {
 
   "done.headline": "Поїзд до кінцевої",
   "done.rules": "Хід *наступного* гравця",
-  "done.button": "Готово"
+  "done.button": "Готово",
   
   "infoOne.headline": "Правила, яких зобов'язані дотримуватися навіть манчкіни",
   "infoOne.rules": `Ви повинні вбити монстра, щоб отримати 10-й рівень (і перемогти!).
@@ -138,7 +138,7 @@ export const translations = {
   Якщо у бою мертвяк, будь-хто може підкинути ще мертвяка.  
   
   1/3`,
-  "infoOne.button": "Наступна"
+  "infoOne.button": "Наступна",
   
   "infoTwo.headline": "Коли розігрувати...",
   "infoTwo.rules": `**Прокляття**: в будь-який час, навіть під час бою.
@@ -155,8 +155,8 @@ export const translations = {
   *ПРОДАВАЙТЕ СВОЇ МАНАТКИ* тільки під час свого ходу, коли ви не в бою. Ви можете продавати з того, що є у грі та/або з вашої руки. Здача не видається (1000 = 1300 = 1900 = 1 рівень)
   
   2/3`,
-  "infoTwo.button.back": "Попередня"
-  "infoTwo.button.next": "Наступна"
+  "infoTwo.button.back": "Попередня",
+  "infoTwo.button.next": "Наступна",
   
   "infoThree.headline": "Що можна використовувати (ввести у гру):",
   "infoThree.rules": `1 Головний убір
@@ -178,6 +178,6 @@ export const translations = {
   Предмети в грі, які не можна нести, повинні бути повернуті вбік.
   
   3/3`,
-  "infoThree.button.back": "Попередня"
+  "infoThree.button.back": "Попередня",
   "infoThree.button.exit": "Повернутися до гри"
 };
