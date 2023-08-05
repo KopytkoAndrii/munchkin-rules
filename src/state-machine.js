@@ -139,9 +139,7 @@ const munchkinConfig = {
     }
   },
   on: {
-    CANCEL: { target: "openDoor" }
-  }
-  on: {
+    CANCEL: { target: "openDoor" },
     INFO: { target: "infoOne" }
   }
 };
