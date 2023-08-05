@@ -11,7 +11,7 @@ const fightConfig = {
     },
     wait: {
       after: {
-        2600: { target: "recheckConditions" }
+        2420: { target: "recheckConditions" }
       }
     },
     recheckConditions: {
@@ -40,12 +40,12 @@ const fightConfig = {
     },
     looting: {
       on: {
-        CONTINUE: { target: "done" }
+        CONTINUE: { target: "#munchkin.done" }
       }
     },
     winning: {
       on: {
-        WIN: { target: "openDoor" }
+        WIN: { target: "#munchkin.openDoor" }
       }
     },
     end: {
