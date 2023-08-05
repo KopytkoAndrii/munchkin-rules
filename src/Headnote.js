@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Footnote = styled.a`
+export const Headnote = styled.a`
   position: fixed;
   cursor: pointer;
   bottom: 0.5rem;

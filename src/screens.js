@@ -93,6 +93,32 @@ export const getAllScreens = translations => {
         { text: translate("charity.button"), action: "DISTRIBUTE_CARDS" }
       ]
     },
+    infoOne: {
+      headline: translate("infoOne.headline"),
+      rules: translate("infoOne.rules"),
+      icon: "🎁",
+      buttons: [
+        { text: translate("infoOne.button"), action: "NEXT" }
+      ]
+    },
+    infoTwo: {
+      headline: translate("infoTwo.headline"),
+      rules: translate("infoTwo.rules"),
+      icon: "🎁",
+      buttons: [
+        { text: translate("infoTwo.button.next"), action: "NEXT" },
+        { text: translate("infoTwo.button.back"), action: "BACK" }
+      ]
+    },
+    infoThree: {
+      headline: translate("infoThree.headline"),
+      rules: translate("infoThree.rules"),
+      icon: "🎁",
+      buttons: [
+        { text: translate("infoThree.button.back"), action: "BACK" },
+        { text: translate("infoThree.button.exit"), action: "EXIT" }
+      ]
+    },
     fight: {
       fightOrRun: {
         headline: translate("fightOrRun.headline"),

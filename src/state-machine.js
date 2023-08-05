@@ -65,6 +65,23 @@ const munchkinConfig = {
         DRAW_OTHER: [{ target: "keepOrPlayCard" }]
       }
     },
+    infoOne: {
+      on: {
+        NEXT: [{ target: "infoTwo" }]
+      }
+    },
+    infoTwo: {
+      on: {
+        BACK: [{ target: "infoOne" }],
+        NEXT: [{ target: "infoThree" }]
+      }
+    },
+    infoThree: {
+      on: {
+        BACK: [{ target: "infoTwo" }],
+        EXIT: [{ target: "openDoor" }]
+      }
+    },
     applyCurseOrTrap: {
       on: {
         APPLY_CURSE: { target: "readyForTrouble" }
@@ -123,6 +140,9 @@ const munchkinConfig = {
   },
   on: {
     CANCEL: { target: "openDoor" }
+  }
+  on: {
+    INFO: { target: "infoOne" }
   }
 };
 
