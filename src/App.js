@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import styled from "styled-components";
 import { ButtonList } from "./ButtonList";
 import { Close } from "./Close";
-import { Close } from "./InfoButton";
+import { InfoButton } from "./InfoButton";
 import { Headnote } from "./Headnote";
 import { Headline } from "./Headline";
 import { Icon } from "./Icon";
