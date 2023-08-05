@@ -33,7 +33,7 @@ const App = () => {
 
   return (
     <AppContainer>
-      <Headnote href="https://github.com/KopytkoAndrii/munchkin-rules">
+      <Headnote href="https://github.com/tomraithel/munchkin-rules">
         View on GitHub
       </Headnote>
       <Close
