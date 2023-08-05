@@ -130,8 +130,12 @@ export const getAllScreens = translations => {
         icon: "🏆",
         buttons: [
           {
-            text: translate("victory.button"),
+            text: translate("victory.button.level"),
             action: "TAKE_TREASURE_AND_LEVEL_UP"
+          },
+          {
+            text: translate("victory.button.ten"),
+            action: "LEVEL_TEN"
           }
         ]
       },
@@ -151,7 +155,22 @@ export const getAllScreens = translations => {
         headline: translate("badThings.headline"),
         rules: translate("badThings.rules"),
         icon: "☠️",
-        buttons: [{ text: translate("badThings.button"), action: "DONE" }]
+        buttons: [
+		  { text: translate("badThings.button.bad"), action: "DONE" },
+		  { text: translate("badThings.button.deth"), action: "DETH" },
+		]
+      },
+      looting: {
+        headline: translate("looting.headline"),
+        rules: translate("looting.rules"),
+        icon: "⚰",
+        buttons: [{ text: translate("looting.button"), action: "CONTINUE" }]
+      },
+      wining: {
+        headline: translate("wining.headline"),
+        rules: translate("wining.rules"),
+        icon: "🎆",
+        buttons: [{ text: translate("wining.button"), action: "WIN" }]
       },
       end: {
         type: "final"

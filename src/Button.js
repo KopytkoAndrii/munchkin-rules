@@ -14,7 +14,6 @@ export const ButtonHost = styled.button`
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
   border: none;
   border-radius: 0.3rem;
-  font-family: "Lora", cursive;
   font-weight: 700;
 
   &:hover {

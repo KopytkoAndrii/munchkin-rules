@@ -23,6 +23,7 @@ const fightConfig = {
     victory: {
       on: {
         TAKE_TREASURE_AND_LEVEL_UP: { target: "end" }
+        LEVEL_TEN: { target: "wining" }
       }
     },
     dice: {
@@ -34,6 +35,17 @@ const fightConfig = {
     badThings: {
       on: {
         DONE: { target: "end" }
+        DETH: { target: "looting" }
+      }
+    },
+    looting: {
+      on: {
+        CONTINUE: { target: "done" }
+      }
+    },
+    wining: {
+      on: {
+        WIN: { target: "openDoor" }
       }
     },
     end: {
