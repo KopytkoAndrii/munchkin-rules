@@ -22,8 +22,8 @@ const fightConfig = {
     },
     victory: {
       on: {
-        TAKE_TREASURE_AND_LEVEL_UP: { target: "end" }
-        LEVEL_TEN: { target: "wining" }
+        TAKE_TREASURE_AND_LEVEL_UP: { target: "end" },
+        LEVEL_TEN: { target: "winning" }
       }
     },
     dice: {
@@ -34,7 +34,7 @@ const fightConfig = {
     },
     badThings: {
       on: {
-        DONE: { target: "end" }
+        DONE: { target: "end" },
         DETH: { target: "looting" }
       }
     },
@@ -43,7 +43,7 @@ const fightConfig = {
         CONTINUE: { target: "done" }
       }
     },
-    wining: {
+    winning: {
       on: {
         WIN: { target: "openDoor" }
       }

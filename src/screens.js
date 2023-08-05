@@ -157,7 +157,7 @@ export const getAllScreens = translations => {
         icon: "☠️",
         buttons: [
 		  { text: translate("badThings.button.bad"), action: "DONE" },
-		  { text: translate("badThings.button.deth"), action: "DETH" },
+		  { text: translate("badThings.button.deth"), action: "DETH" }
 		]
       },
       looting: {
@@ -166,11 +166,11 @@ export const getAllScreens = translations => {
         icon: "⚰",
         buttons: [{ text: translate("looting.button"), action: "CONTINUE" }]
       },
-      wining: {
-        headline: translate("wining.headline"),
-        rules: translate("wining.rules"),
+      winning: {
+        headline: translate("winning.headline"),
+        rules: translate("winning.rules"),
         icon: "🎆",
-        buttons: [{ text: translate("wining.button"), action: "WIN" }]
+        buttons: [{ text: translate("winning.button"), action: "WIN" }]
       },
       end: {
         type: "final"
