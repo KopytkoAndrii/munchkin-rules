@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Close = styled.a`
   cursor: pointer;
-  top: 0.5rem;
+  top: 0.3rem;
   left: 0.5rem;
   padding: 0.5rem;
   color: rgba(255, 255, 255, 0.8);
@@ -19,5 +19,7 @@ export const Close = styled.a`
   }
   &:hover {
     background-color: rgba(0, 0, 0, 0.1);
+	width: 2rem;
+    height: 2rem;
   }
 `;
