@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Close = styled.a`
   cursor: pointer;
   top: 0.3rem;
-  left: 0.5rem;
+  left: 0.3rem;
   padding: 0.5rem;
   color: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
