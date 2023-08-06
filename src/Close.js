@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Close = styled.a`
   cursor: pointer;
-  top: 0.3rem;
+  top: 0.1rem;
   left: 0.3rem;
   padding: 0.5rem;
   color: rgba(255, 255, 255, 0.8);
@@ -15,7 +15,7 @@ export const Close = styled.a`
   align-items: center;
   font-size: 1.2rem;
   ::after {
-    content: "\21bb";
+    content: "↺";
   }
   &:hover {
     background-color: rgba(0, 0, 0, 0.1);

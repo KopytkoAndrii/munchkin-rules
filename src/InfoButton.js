@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const InfoButton = styled.a`
   cursor: pointer;
-  top: 0.3rem;
+  top: 0.1rem;
   left: 2.5rem;
   padding: 0.5rem;
   color: rgba(255, 255, 255, 0.8);
