@@ -15,7 +15,7 @@ export const Close = styled.a`
   align-items: center;
   font-size: 1.2rem;
   ::after {
-    content: "⇤";
+    content: "\21bb";
   }
   &:hover {
     background-color: rgba(0, 0, 0, 0.1);

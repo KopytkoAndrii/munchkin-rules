@@ -6,6 +6,6 @@ export const LinkWrapper = styled.div`
   right: 0.5rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
+  align-items: flex-end;
+  gap: 0.3rem;
 `;
