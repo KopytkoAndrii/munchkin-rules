@@ -96,7 +96,7 @@ export const getAllScreens = translations => {
     infoOne: {
       headline: translate("infoOne.headline"),
       rules: translate("infoOne.rules"),
-      icon: "🎁",
+      icon: "🏰",
       buttons: [
         { text: translate("infoOne.button"), action: "NEXT" }
       ]
@@ -104,7 +104,7 @@ export const getAllScreens = translations => {
     infoTwo: {
       headline: translate("infoTwo.headline"),
       rules: translate("infoTwo.rules"),
-      icon: "🎁",
+      icon: "💰",
       buttons: [
         { text: translate("infoTwo.button.next"), action: "NEXT" },
         { text: translate("infoTwo.button.back"), action: "BACK" }
@@ -113,7 +113,7 @@ export const getAllScreens = translations => {
     infoThree: {
       headline: translate("infoThree.headline"),
       rules: translate("infoThree.rules"),
-      icon: "🎁",
+      icon: "🗡",
       buttons: [
         { text: translate("infoThree.button.back"), action: "BACK" },
         { text: translate("infoThree.button.exit"), action: "EXIT" }
@@ -189,7 +189,7 @@ export const getAllScreens = translations => {
       looting: {
         headline: translate("looting.headline"),
         rules: translate("looting.rules"),
-        icon: "⚰",
+        icon: "👻",
         buttons: [{ text: translate("looting.button"), action: "CONTINUE" }]
       },
       winning: {

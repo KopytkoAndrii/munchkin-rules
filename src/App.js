@@ -36,6 +36,7 @@ const App = () => {
       <Headnote href="https://github.com/tomraithel/munchkin-rules">
         View on GitHub
       </Headnote>
+	  <Headnote href="mailto:mrnetilo14@gmail.com">Email Me</Headnote>
       <Close
         onClick={() => {
           transition("CANCEL");
