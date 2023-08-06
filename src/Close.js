@@ -19,7 +19,6 @@ export const Close = styled.a`
   }
   &:hover {
     background-color: rgba(0, 0, 0, 0.1);
-	width: 2rem;
-    height: 2rem;
+	transform: scale(0.67);
   }
 `;

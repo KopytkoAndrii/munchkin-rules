@@ -157,7 +157,7 @@ export const translations = {
   "infoTwo.button.back": "Попередня",
   "infoTwo.button.next": "Наступна",
   
-  "infoThree.headline": "Що можна використовувати (ввести у гру):",
+  "infoThree.headline": "Що можна використовувати (ввести у гру)",
   "infoThree.rules": `1 Головний убір
   
   1 Взуття
