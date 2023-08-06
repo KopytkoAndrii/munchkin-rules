@@ -35,7 +35,7 @@ const App = () => {
   return (
     <AppContainer>
 	  <LinkWrapper>
-        <Headnote href="https://github.com/tomraithel/munchkin-rules">"Based on Tom Raithel's work - Thanks, Tom!"</Headnote>
+        <Headnote href="https://github.com/tomraithel/munchkin-rules">Based on Tom Raithel's work - Thanks, Tom!</Headnote>
 	    <Headnote href="mailto:mrnetilo14@gmail.com">Email Me</Headnote>
 	  </LinkWrapper>
       <Close
