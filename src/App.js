@@ -5,6 +5,7 @@ import { Close } from "./Close";
 import { InfoButton } from "./InfoButton";
 import { Headnote } from "./Headnote";
 import { Headline } from "./Headline";
+import { LinkWrapper } from "./LinkWrapper";
 import { Icon } from "./Icon";
 import { Rules } from "./Rules";
 import { getAllScreens, screenByState } from "./screens";
@@ -33,10 +34,10 @@ const App = () => {
 
   return (
     <AppContainer>
-      <Headnote href="https://github.com/tomraithel/munchkin-rules">
-        View on GitHub
-      </Headnote>
-	  <Headnote href="mailto:mrnetilo14@gmail.com">Email Me</Headnote>
+	  <LinkWrapper>
+        <Headnote href="https://github.com/tomraithel/munchkin-rules">"Based on Tom Raithel's work - Thanks, Tom!"</Headnote>
+	    <Headnote href="mailto:mrnetilo14@gmail.com">Email Me</Headnote>
+	  </LinkWrapper>
       <Close
         onClick={() => {
           transition("CANCEL");
